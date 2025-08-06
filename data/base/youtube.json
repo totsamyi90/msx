@@ -1,6 +1,6 @@
 {
   "type": "list",
-  "headline": "YouTube",
+  "headline": "YouTube (зеркала)",
   "template": {
     "type": "default",
     "layout": "0,0,4,1",
@@ -8,23 +8,19 @@
   },
   "items": [
     {
-      "title": "Piped (рекомендуется)",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/YouTube_icon_2017.svg",
-      "action": "link:https://piped.video/"
+      "title": "Invidious (EU mirror)",
+      "action": "link:https://yt.artemislena.eu/"
     },
     {
-      "title": "Piped (альтернатива)",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/YouTube_icon_2017.svg",
-      "action": "link:https://piped.kavin.rocks/"
+      "title": "Invidious (Snopyta mirror)",
+      "action": "link:https://invidious.snopyta.org/"
     },
     {
-      "title": "Piped (через onionproxy)",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/YouTube_icon_2017.svg",
-      "action": "link:https://yt.oelrichsgarcia.de/"
+      "title": "Invidious (Qvarford)",
+      "action": "link:https://yt.privacy.qvarford.net/"
     },
     {
       "title": "YouTube Plugin (ограниченный)",
-      "image": "https://img.youtube.com/vi/61CFhMvAbFU/hqdefault.jpg",
       "action": "video:plugin:http://msx.benzac.de/plugins/youtube.html?id=61CFhMvAbFU"
     }
   ]
